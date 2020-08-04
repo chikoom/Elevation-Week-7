@@ -9,7 +9,7 @@ stack1.push(2)
 stack1.push(3)
 stack1.push(4)
 
-const swap = function(stk1, stk2, stk3 = new Stack()) {
+const swap = function (stk1, stk2, stk3 = new Stack()) {
   if (stk1.peek() === null) return
   stk3.push(stk1.pop())
   swap(stk1, stk2)
